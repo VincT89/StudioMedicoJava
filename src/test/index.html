@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <meta name="description" content="Homepage Studio Medico BitCamp" />
+    <meta name="keywords" content="studio medico, prenotazione appuntamenti, servizi medici" />
+    <meta name="author" content="Classe BitCamp" />
+    <title>Studio Medico</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding:0;
+            font-family: Arial, sans-serif;
+            background: url('/src/test/img/sfondo.jpg') fixed;
+            background-size: cover;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            background: rgba(0,0,0,0.7);
+            color:#fff;
+            padding: 50px;
+        }
+
+        nav {
+            text-align: center;
+            background: #333;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: rgba(255,255,255,0.8);
+            border-radius: 10px;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        form input, form select {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button {
+            background: #3498db;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        section {
+            text-align: center;
+            padding: 50px;
+            background: rgba(255,255,255,0.8);
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        section h2 {
+            color: #333;
+        }
+
+        section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        section li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align:center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Studio Medico BitCamp</h1>
+        <p>La tua salute è la nostra priorità</p>
+    </header>
+    <!--Sezione dedicata ai collegamenti-->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Chi Siamo</a>
+        <a href="#">Servizi</a>
+        <a href="informazioniAggiuntive.html">Informazioni Aggiuntive</a>
+        <a href="#">Contatti</a>
+    </nav>
+
+    <!--Form per gestione appuntamenti-->
+    <form>
+        <label for="data">Data dell'appuntamento:</label>
+        <input type="date" id="data" name="data" required />
+
+        <label for="ora">Ora dell'appuntamento:</label>
+        <input type="time" id="ora" name="ora" required />
+
+        <button type="submit">Prenota Appuntamento</button>
+    </form>
+
+    <!--Sezione per elencare i servizi dello studio-->
+    <section>
+        <h2>Servizi Offerti</h2>
+        <ul>
+            <li>Medicina Generale</li>
+            <li>Pediatria</li>
+            <li>Cardiologia</li>
+            <li>Dermatologia</li>
+            <li>Ortopedia</li>
+        </ul>
+    </section>
+
+    <!--Sezione Informazioni Studio-->
+    <section>
+        <h2>Chi Siamo</h2>
+        <p>Lo Studio Medico BitCamp si impegna a fornire servizi medici di alta qualità per migliorare la salute e il benessere dei propri studenti di programmazione.</p>
+    </section>
+
+    <!--Sezione dei contatti-->
+    <section>
+        <h2>Contatti</h2>
+        <p>Indirizzo: Via delle Cure, 123 - 00123 Roma</p>
+        <p>Email: info@studiomedicobit.it</p>
+        <p>Telefono: 0123-456789</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Studio Medico BitCamp. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
